@@ -1,0 +1,280 @@
+{
+ "domains": {
+  "http://etiketka.express/": {
+   "status": 301,
+   "location": null,
+   "bytes": 233
+  },
+  "https://etiketka.express/": {
+   "status": 200,
+   "location": null,
+   "bytes": 335511
+  },
+  "http://www.etiketka.express/": {
+   "status": 301,
+   "location": null,
+   "bytes": 233
+  },
+  "https://www.etiketka.express/": {
+   "status": 301,
+   "location": null,
+   "bytes": 233
+  }
+ },
+ "robots": {
+  "status": 200,
+  "text": "User-agent: *\r\n\r\n# Служебные разделы Tilda\r\nDisallow: /tilda/form*\r\nDisallow: /tilda/rec*\r\nDisallow: /tilda/click*\r\nDisallow: /tilda/scroll*\r\nDisallow: /tilda/popup*\r\nDisallow: /tilda/cart*\r\nDisallow: /tilda/product*\r\nDisallow: /tilda/event*\r\n\r\n# Страница благодарности и техническая страница\r\nDisallow: /spasibo\r\nDisallow: /page274931409.html\r\nDisallow: /page294312309.html\r\n\r\n# Яндекс: ссылки с метками и регионом считать одной страницей\r\nClean-param: utm_source&utm_medium&utm_campaign&utm_term&utm_content&utm_region&utm_geo&utm_city&utm_location&region&region_name&geo&city&location&yclid&ysclid&gclid&fbclid&_openstat /\r\n\r\nSitemap: https://etiketka.express/sitemap.xml"
+ },
+ "sitemap": [
+  "https://etiketka.express/",
+  "https://etiketka.express/policy",
+  "https://etiketka.express/naklejki",
+  "https://etiketka.express/etiketki-dlya-kosmetiki-parfyumerii"
+ ],
+ "pages": {
+  "/": {
+   "url": "https://etiketka.express/",
+   "status": 200,
+   "final_url": "https://etiketka.express/",
+   "bytes": 335511,
+   "x_robots": null,
+   "title": "Печать самоклеящихся этикеток — Ваша Этикетка",
+   "description": "Печать самоклеящихся этикеток в рулонах. Цифровая и офсетная печать, бесплатный пробный образец. Доставка по России.",
+   "meta_robots": null,
+   "canonical": [
+    "https://etiketka.express"
+   ],
+   "h1": [
+    "Срочная печать самоклеящихся этикеток в&nbsp;рулонах"
+   ],
+   "h2_count": 11,
+   "lang": null,
+   "og_title": "Печать самоклеящихся этикеток — Ваша Этикетка",
+   "og_image": "https://static.tildacdn.com/tild6461-3164-4132-b161-303733396532/____.png",
+   "jsonld_types": [
+    "LocalBusiness",
+    "FAQPage"
+   ],
+   "images": 59,
+   "images_without_alt": 8,
+   "metrika": false,
+   "gsc_or_ga": false,
+   "internal_links": [
+    "/policy/"
+   ],
+   "phones": [
+    "+7 (495) 019-33-83",
+    "+7 (812) 200-75-56"
+   ],
+   "emails": [
+    "zakaz@youlabel.ru"
+   ],
+   "legal": [
+    "ООО «ВАША ЯРКАЯ ЭТИКЕТКА»"
+   ],
+   "deadline_phrases": [
+    "Готовность за 1–3 дня",
+    "Срок печати зависит от материала и тиража, срок д",
+    "готовность  за 1–3 дня    Минимальный заказ — от 5 000 ",
+    "срок называем вместе с ценой при расчёте",
+    "срока"
+   ],
+   "min_order": [
+    "от 5 000 ₽"
+   ],
+   "words": 1237
+  },
+  "/policy": {
+   "url": "https://etiketka.express/policy",
+   "status": 200,
+   "final_url": "https://etiketka.express/policy",
+   "bytes": 69607,
+   "x_robots": null,
+   "title": "Политика конфиденциальности — Ваша Этикетка",
+   "description": "Политика ООО «ВАША ЯРКАЯ ЭТИКЕТКА» в отношении обработки персональных данных на сайте etiketka.express: цели, правила хранения и права пользователей.",
+   "meta_robots": null,
+   "canonical": [
+    "https://etiketka.express/policy"
+   ],
+   "h1": [
+    "Политика в отношении обработки персональных данных"
+   ],
+   "h2_count": 14,
+   "lang": null,
+   "og_title": "Политика конфиденциальности — Ваша Этикетка",
+   "og_image": "[https://etiketka.express/og-image.jpg]",
+   "jsonld_types": [
+    "LocalBusiness"
+   ],
+   "images": 1,
+   "images_without_alt": 0,
+   "metrika": false,
+   "gsc_or_ga": false,
+   "internal_links": [
+    "/"
+   ],
+   "phones": [],
+   "emails": [
+    "info@youlabel.ru",
+    "zakaz@youlabel.ru"
+   ],
+   "legal": [],
+   "deadline_phrases": [
+    "Срок обработки персональных данных определяется д",
+    "срок не позднее трех рабочих дней с момента получ",
+    "срок не предусмотрен договором или действующим за",
+    "срок хранения персональных данных не установлен ф",
+    "срока действия согласия субъекта персональных дан"
+   ],
+   "min_order": [],
+   "words": 2684
+  },
+  "/naklejki": {
+   "url": "https://etiketka.express/naklejki",
+   "status": 200,
+   "final_url": "https://etiketka.express/naklejki",
+   "bytes": 335609,
+   "x_robots": null,
+   "title": "Печать наклеек на заказ с логотипом за 1–3 дня с доставкой — Ваша Этикетка",
+   "description": "Печать наклеек на заказ: цифровая и офсетная печать, готовность 1–3 дня, заказ от 5 000 ₽. Бесплатный пробный образец.",
+   "meta_robots": null,
+   "canonical": [
+    "https://etiketka.express/naklejki"
+   ],
+   "h1": [
+    "Срочная печать наклеек"
+   ],
+   "h2_count": 11,
+   "lang": null,
+   "og_title": "Печать наклеек на заказ с логотипом за 1–3 дня с доставкой — Ваша Этикетка",
+   "og_image": "https://static.tildacdn.com/tild6461-3164-4132-b161-303733396532/____.png",
+   "jsonld_types": [
+    "LocalBusiness",
+    "FAQPage"
+   ],
+   "images": 59,
+   "images_without_alt": 8,
+   "metrika": false,
+   "gsc_or_ga": false,
+   "internal_links": [
+    "/policy/"
+   ],
+   "phones": [
+    "+7 (495) 019-33-83",
+    "+7 (812) 200-75-56"
+   ],
+   "emails": [
+    "zakaz@youlabel.ru"
+   ],
+   "legal": [
+    "ООО «ВАША ЯРКАЯ ЭТИКЕТКА»"
+   ],
+   "deadline_phrases": [
+    "Готовность за 1–3 дня",
+    "Срок печати зависит от материала и тиража, срок д",
+    "готовность  за 1–3 дня    Минимальный заказ — от 5 000 ",
+    "срок называем вместе с ценой при расчёте",
+    "срока"
+   ],
+   "min_order": [
+    "от 5 000 ₽"
+   ],
+   "words": 1241
+  },
+  "/etiketki-dlya-kosmetiki-parfyumerii": {
+   "url": "https://etiketka.express/etiketki-dlya-kosmetiki-parfyumerii",
+   "status": 200,
+   "final_url": "https://etiketka.express/etiketki-dlya-kosmetiki-parfyumerii",
+   "bytes": 289488,
+   "x_robots": null,
+   "title": "Печать этикеток и наклеек для косметики — Ваша Этикетка",
+   "description": "Печать этикеток и наклеек для флаконов, туб и банок с косметикой: подберём материал и клей, бесплатно напечатаем образец. Готовность 1–3 дня, заказ от 5 000 ₽.",
+   "meta_robots": null,
+   "canonical": [
+    "https://etiketka.express/etiketki-dlya-kosmetiki-parfyumerii"
+   ],
+   "h1": [
+    "Срочная печать самоклеящихся этикеток в&nbsp;рулонах для косметики и&nbsp;парфюмерии"
+   ],
+   "h2_count": 13,
+   "lang": null,
+   "og_title": "Печать этикеток и наклеек для косметики — Ваша Этикетка",
+   "og_image": "https://static.tildacdn.com/tild3634-6434-4565-a432-663937626134/____png.webp",
+   "jsonld_types": [
+    "LocalBusiness",
+    "ItemList",
+    "FAQPage"
+   ],
+   "images": 42,
+   "images_without_alt": 7,
+   "metrika": false,
+   "gsc_or_ga": false,
+   "internal_links": [
+    "/",
+    "/policy/"
+   ],
+   "phones": [
+    "+7 (495) 019-33-83",
+    "+7 (812) 200-75-56"
+   ],
+   "emails": [
+    "zakaz@youlabel.ru"
+   ],
+   "legal": [
+    "ООО «ВАША ЯРКАЯ ЭТИКЕТКА»"
+   ],
+   "deadline_phrases": [
+    "Готовность за 1–3 дня после согласования макета и парам",
+    "Срок называем при расчёте и держим",
+    "Срок называем при расчёте и держим, доставка по Р",
+    "Срок печати зависит от материала и тиража, срок д",
+    "Срок:  2 дня    Задача  Наклеить этикетку на карт",
+    "Срок:  3 дня    Задача  Передать мелкие штрихи ил",
+    "Срок:  3 дня    Задача  Уместить на узкой этикетк",
+    "Срок:  4 дня    Задача  Крупная этикетка на пласт"
+   ],
+   "min_order": [
+    "от 5 000 ₽"
+   ],
+   "words": 1433
+  },
+  "/__404_test__": {
+   "url": "https://etiketka.express/etiketka-seo-geo-404-test",
+   "status": 404,
+   "final_url": "https://etiketka.express/etiketka-seo-geo-404-test",
+   "bytes": 27882,
+   "x_robots": null,
+   "title": "Страница не найдена — Ваша Этикетка",
+   "description": "Такой страницы нет. Вернитесь на главную или выберите раздел: этикетки, материалы, образец.",
+   "meta_robots": null,
+   "canonical": [
+    "https://etiketka.express/error-404"
+   ],
+   "h1": [
+    "Страница не&nbsp;найдена"
+   ],
+   "h2_count": 1,
+   "lang": null,
+   "og_title": "Страница не найдена — Ваша Этикетка",
+   "og_image": "[https://ваш-домен/og-image.jpg]",
+   "jsonld_types": [
+    "LocalBusiness"
+   ],
+   "images": 1,
+   "images_without_alt": 0,
+   "metrika": false,
+   "gsc_or_ga": false,
+   "internal_links": [
+    "/"
+   ],
+   "phones": [],
+   "emails": [
+    "zakaz@youlabel.ru"
+   ],
+   "legal": [],
+   "deadline_phrases": [],
+   "min_order": [],
+   "words": 53
+  }
+ }
+}
