@@ -1,6 +1,6 @@
 # SEO-ТЗ на статью: {{тема}} — {{дата}}
 
-(ТЗ уровня статьи; бриф уровня блока — `etiketka-seo-geo/templates/content-brief.md`.)
+(ТЗ уровня статьи; бриф уровня блока — `audit-seo-geo/templates/content-brief.md`.)
 
 1. **URL страницы:**
 2. **Основная тема:**

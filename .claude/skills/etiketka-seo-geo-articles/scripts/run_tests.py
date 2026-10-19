@@ -99,5 +99,21 @@ dup_text = "## А\n\n" + ("Прозрачная плёнка сохраняет 
 rep3 = q.analyze(dup_text)
 check("anti-spam: похожие абзацы", len(rep3["similar_paragraphs"]) >= 1)
 
+# --- md_to_html ---
+import md_to_html as h
+
+sample = ("<!-- служебный комментарий -->\n# Заголовок\n\nАбзац с **жирным** и [ссылкой](https://etiketka.express/naklejki) & знаком <.\n\n"
+          "## Раздел\n\n- пункт один\n- пункт два\n\n1. первый\n2. второй\n\n"
+          "| А | Б |\n|---|---|\n| 1 | **2** |\n")
+out = h.convert(sample)
+check("md_to_html: комментарии отброшены", "служебный" not in out)
+check("md_to_html: h1/h2", "<h1>Заголовок</h1>" in out and "<h2>Раздел</h2>" in out)
+check("md_to_html: жирный и ссылка", "<strong>жирным</strong>" in out and '<a href="https://etiketka.express/naklejki">ссылкой</a>' in out)
+check("md_to_html: экранирование &, <", "&amp;" in out and "&lt;" in out)
+check("md_to_html: списки", "<ul>" in out and "<li>пункт два</li>" in out and "<ol>" in out and "<li>второй</li>" in out)
+check("md_to_html: таблица", "<table>" in out and "<th>А</th>" in out and "<td><strong>2</strong></td>" in out)
+check("md_to_html: нет инлайн-стилей в теле", "style=" not in out)
+check("md_to_html: javascript-ссылка не превращается в ссылку", "<a href=\"javascript" not in h.convert("[x](javascript:alert(1))"))
+
 print(f"\nИтого: {len(PASSED)} прошло, {len(FAILED)} провалено")
 sys.exit(1 if FAILED else 0)

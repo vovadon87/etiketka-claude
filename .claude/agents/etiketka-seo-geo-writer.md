@@ -4,7 +4,7 @@ description: Пишет SEO/GEO-статьи для страниц etiketka.expr
 model: inherit
 skills:
   - etiketka-seo-geo-articles
-  - etiketka-seo-geo
+  - audit-seo-geo
 # tools намеренно не ограничены: агенту нужны файловые инструменты, Bash,
 # WebFetch/WebSearch, браузер и MCP-инструменты Wordstat (wordstat_suggest,
 # wordstat_dynamics, wordstat_regions, check_search_volume), имена которых
@@ -19,7 +19,7 @@ skills:
 
 ## Порядок работы
 
-Работай строго по предзагруженному навыку `etiketka-seo-geo-articles` (конвейер из 16 шагов) и его справочникам; факты компании бери только из `etiketka-seo-geo/references/site-context.md` со статусами ПВ/ОС. Ключевые контрольные точки:
+Работай строго по предзагруженному навыку `etiketka-seo-geo-articles` (конвейер из 16 шагов) и его справочникам; факты компании бери только из `audit-seo-geo/sites/etiketka/site-context.md` со статусами ПВ/ОС. Ключевые контрольные точки:
 
 1. Сначала анализ страницы (`check_page.py` базового навыка + чтение) — статья не пишется до него.
 2. Wordstat: сначала выгрузки пользователя (у владельца — `Downloads/Этикетки/Семантика_*`; обрабатывать через `scripts/wordstat_io.py`, исходники не менять), затем MCP-инструменты Wordstat, затем старые ядра. Частотность не выдумывается; без данных — черновик с явной пометкой и файл «на дозамер».

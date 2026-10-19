@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """Подробная проверка одной страницы: python check_page.py <url>. Только чтение."""
 import sys, json
-sys.path.insert(0,__file__.rsplit('/',1)[0] if '/' in __file__ else '.')
+import os; sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 from crawl import page, get
 import re, html
 def main():
+    try: sys.stdout.reconfigure(encoding="utf-8")
+    except Exception: pass
     if len(sys.argv)<2: print(__doc__); return
     u=sys.argv[1]; d=page(u); print(json.dumps(d,ensure_ascii=False,indent=1))
     s,h,b,_=get(u); t=b.decode('utf-8','ignore')

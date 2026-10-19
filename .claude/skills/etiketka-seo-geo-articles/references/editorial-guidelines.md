@@ -1,6 +1,6 @@
 # Редакторские правила статей
 
-Базовые правила текстов (B2B-стиль, запреты на выдумывание) — `etiketka-seo-geo/SKILL.md` и `references/semantic-content.md`. Здесь — специфика статей.
+Базовые правила текстов (B2B-стиль, запреты на выдумывание) — `audit-seo-geo/SKILL.md` и `references/semantic-content.md`. Здесь — специфика статей.
 
 ## Стиль
 
